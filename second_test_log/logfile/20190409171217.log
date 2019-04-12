@@ -1,0 +1,6 @@
+[2019-04-09 17:12:17,159](DEBUG)test_case002.py : _______start_______
+[2019-04-09 17:12:17,472](DEBUG)test_case002.py : {"return_code":10205,"return_data":"","return_msg":"打印机已绑定过该应用app_id"}
+[2019-04-09 17:12:17,473](DEBUG)test_case002.py : http://mcp.yinmei.me:8081//mcp/v2/sys/BindPrinter
+[2019-04-09 17:12:17,541](DEBUG)test_case002.py : {"return_code":10107,"return_data":"","return_msg":"app_id为必填项！"}
+[2019-04-09 17:12:17,541](DEBUG)test_case002.py : http://mcp.yinmei.me:8081//mcp/v2/sys/BindPrinter
+[2019-04-09 17:12:17,541](DEBUG)test_case002.py : _______stop______

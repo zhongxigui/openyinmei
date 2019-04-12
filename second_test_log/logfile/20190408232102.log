@@ -1,0 +1,4 @@
+[2019-04-08 23:21:02,485](DEBUG)test_case003.py : _______start_______
+[2019-04-08 23:21:05,714](DEBUG)test_case003.py : {"return_code":10107,"return_data":"","return_msg":"打印设备编码不能为空！"}
+[2019-04-08 23:21:05,715](DEBUG)test_case003.py : http://mcp.yinmei.me:8081/mcp/v2/sys/PrintHtmlUrl
+[2019-04-08 23:21:05,716](DEBUG)test_case003.py : _______stop______

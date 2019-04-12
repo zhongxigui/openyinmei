@@ -1,0 +1,4 @@
+[2019-04-08 23:21:40,340](DEBUG)test_case002.py : _______start_______
+[2019-04-08 23:21:40,516](DEBUG)test_case002.py : {"return_code":0,"return_data":{"device_id":"17260165VL","devicetype_id":6,"devicetype_name":"","var_version":"4.0.5","firmware_version":"4.0.13","last_varversion":"4.0.8","last_firmwareversion":"4.0.13"},"return_msg":""}
+[2019-04-08 23:21:40,516](DEBUG)test_case002.py : http://mcp.yinmei.me:8081/mcp/v2/sys/QueryPrinterInfo?access_token=6749b92040a14e5f837adcac723afb6c&app_id=3a97adc2b23a4890b32ffd59a461872d&device_id=17260165VL
+[2019-04-08 23:21:40,517](DEBUG)test_case002.py : _______stop______

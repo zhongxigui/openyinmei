@@ -1,0 +1,4 @@
+[2019-04-09 16:41:52,204](DEBUG)test_case002.py : _______start_______
+[2019-04-09 16:41:52,627](DEBUG)test_case002.py : {"return_code":10107,"return_data":"","return_msg":"device_codesÎª±ØÌîÏî"}
+[2019-04-09 16:41:52,627](DEBUG)test_case002.py : http://mcp.yinmei.me:8081//mcp/v2/sys/BindPrinter
+[2019-04-09 16:41:52,628](DEBUG)test_case002.py : _______stop______

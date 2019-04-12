@@ -1,0 +1,6 @@
+[2019-04-09 17:02:56,373](DEBUG)test_case002.py : _______start_______
+[2019-04-09 17:02:56,537](DEBUG)test_case002.py : {"return_code":10205,"return_data":"","return_msg":"打印机已绑定过该应用app_id"}
+[2019-04-09 17:02:56,537](DEBUG)test_case002.py : http://mcp.yinmei.me:8081//mcp/v2/sys/BindPrinter
+[2019-04-09 17:02:56,574](DEBUG)test_case002.py : {"return_code":10000,"return_data":"","return_msg":"未找到路径“/mcp/v3/sys/BindPrinter”的控制器或该控制器未实现 IController。,请注意接口地址或get-post请求方式"}
+[2019-04-09 17:02:56,574](DEBUG)test_case002.py : http://mcp.yinmei.me:8081//mcp/v3/sys/BindPrinter
+[2019-04-09 17:02:56,576](DEBUG)test_case002.py : _______stop______

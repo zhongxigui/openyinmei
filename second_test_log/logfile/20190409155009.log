@@ -1,0 +1,32 @@
+[2019-04-09 15:50:09,398](DEBUG)test_case001.py : _______start_______
+[2019-04-09 15:50:09,470](DEBUG)test_case001.py : {"return_code":0,"return_data":{"access_token":"552E0D66CBF340ED90023FB8BB5D6841","expires_in":86400,"create_time":"2019-04-09 15:21:19"},"return_msg":""}
+[2019-04-09 15:50:09,470](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,532](DEBUG)test_case001.py : {"return_code":0,"return_data":{"access_token":"552E0D66CBF340ED90023FB8BB5D6841","expires_in":86400,"create_time":"2019-04-09 15:21:19"},"return_msg":""}
+[2019-04-09 15:50:09,534](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,596](DEBUG)test_case001.py : {"return_code":0,"return_data":{"access_token":"552E0D66CBF340ED90023FB8BB5D6841","expires_in":86400,"create_time":"2019-04-09 15:21:19"},"return_msg":""}
+[2019-04-09 15:50:09,596](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=0&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,640](DEBUG)test_case001.py : {"return_code":10107,"return_data":"","return_msg":""}
+[2019-04-09 15:50:09,641](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=null&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,685](DEBUG)test_case001.py : {"return_code":10107,"return_data":"","return_msg":"app_id为必填项！！"}
+[2019-04-09 15:50:09,685](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=&is_refresh=0&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,724](DEBUG)test_case001.py : {"return_code":10107,"return_data":"","return_msg":"time_stamp为必填项！"}
+[2019-04-09 15:50:09,724](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=0&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=
+[2019-04-09 15:50:09,769](DEBUG)test_case001.py : {"return_code":10107,"return_data":"","return_msg":"sign为必填项！！"}
+[2019-04-09 15:50:09,770](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=0&sign=&time_stamp=1553656708
+[2019-04-09 15:50:09,812](DEBUG)test_case001.py : {"return_code":10107,"return_data":"","return_msg":"sign_type为必填项！！"}
+[2019-04-09 15:50:09,812](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=0&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,866](DEBUG)test_case001.py : {"return_code":10101,"return_data":"","return_msg":"获取access_token时app_id错误，请开发者认真检查app_id的正确性！"}
+[2019-04-09 15:50:09,866](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=264949%E5%A4%A7%E5%B8%88%E9%9D%9E%E9%9D%9E%E6%97%B6&is_refresh=0&sign=9B76E68C1FD2FD3388D8E36CF7A7ED41&time_stamp=1553656708
+[2019-04-09 15:50:09,919](DEBUG)test_case001.py : {"return_code":0,"return_data":{"access_token":"552E0D66CBF340ED90023FB8BB5D6841","expires_in":86400,"create_time":"2019-04-09 15:21:19"},"return_msg":""}
+[2019-04-09 15:50:09,919](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken?sign_type=MD5&app_id=3a97adc2b23a4890b32ffd59a461872d&is_refresh=0&sign=BE78FE8C1A75B27730F23D&time_stamp=1553656708
+[2019-04-09 15:50:09,979](DEBUG)test_case001.py : {"return_code":10000,"return_data":"","return_msg":"在控制器“CWI.MCP.API.SysController”上未找到公共操作方法“GetAccessToken”。,请注意接口地址或get-post请求方式"}
+[2019-04-09 15:50:09,979](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken
+[2019-04-09 15:50:10,025](DEBUG)test_case001.py : {"return_code":10000,"return_data":"","return_msg":"在控制器“CWI.MCP.API.SysController”上未找到公共操作方法“GetAccessToken”。,请注意接口地址或get-post请求方式"}
+[2019-04-09 15:50:10,025](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken
+[2019-04-09 15:50:10,070](DEBUG)test_case001.py : {"return_code":10000,"return_data":"","return_msg":"在控制器“CWI.MCP.API.SysController”上未找到公共操作方法“GetAccessToken”。,请注意接口地址或get-post请求方式"}
+[2019-04-09 15:50:10,071](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken
+[2019-04-09 15:50:10,112](DEBUG)test_case001.py : {"return_code":10000,"return_data":"","return_msg":"在控制器“CWI.MCP.API.SysController”上未找到公共操作方法“GetAccessToken”。,请注意接口地址或get-post请求方式"}
+[2019-04-09 15:50:10,113](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken
+[2019-04-09 15:50:10,154](DEBUG)test_case001.py : {"return_code":10000,"return_data":"","return_msg":"在控制器“CWI.MCP.API.SysController”上未找到公共操作方法“GetAccessToken”。,请注意接口地址或get-post请求方式"}
+[2019-04-09 15:50:10,154](DEBUG)test_case001.py : http://mcp.yinmei.me:8081/mcp/v2/sys/GetAccessToken
+[2019-04-09 15:50:10,155](DEBUG)test_case001.py : _______stop______
